@@ -1,0 +1,31 @@
+
+/* 1. Element Selector */
+/* 1. Use element to apply css
+2. Applied to all elements */
+/* h1{
+    color: red;
+} */
+
+/* 2. ID Selector
+1. Uses ID to apply element.
+2. Applies to only one element. */
+#headerSignup{
+    color: red; 
+}
+
+/* 3. Class Selector */
+/* 1. Uses custom names called as css class
+2. Uses . as prefix */
+.div-bg{
+    color: darkslategrey;
+    background-color: yellow !important;
+}
+
+.div-bg-blue{
+    background-color: blue;
+}
+
+/* Priority */
+/* Important
+Inline
+CSS in external file order (bottom has higher than top) */

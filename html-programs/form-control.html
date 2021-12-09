@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="form-control.css">
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <!-- <h1 style="color: red;">SignUp Form</h1> -->
+    <h1 id="headerSignup">SignUp Form</h1>
+    <h1>Please fill below to submit</h1>
+    <!-- <header>SignUp Form</header> -->
+    <form>
+        <div class="div-bg div-bg-blue" style="background-color: seagreen;">
+            <label for="fname">First Name </label>
+            <input type="text" name="fname">
+        </div>
+        <div class="div-bg">
+            <label for="lname">Last Name </label>
+            <input type="text" name="lname">
+        </div>
+        <div>
+            <label for="email">Email </label>
+            <input type="email" name="email" id="inputEmail">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="taAddress">Office Address</label>
+            <textarea name="taAddress" id="taAddress" cols="40" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="taAddress">Home Address</label>
+            <address>
+                Jon Doe,
+                Pune, India
+            </address>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender"> <label>Male</label>
+            <input type="radio" name="gender"> <label>FeMale</label>
+        </div>
+        <div>
+            <label for="DoB">Date of Birth</label>
+            <input type="date" name="DoB">
+        </div>
+
+        <div>
+            <label for="ddlCountry">Country</label>
+            <select name="ddlCountry" id="ddlCountry">
+                <option value="1">India</option>
+                <option value="2">UK</option>
+                <option value="3">USA</option>
+                <option value="3">China</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="cbox"> <label for="cbox">Terms & Conditions</label>
+        </div>
+        <!-- <input type="submit" value="Submit"> -->
+        <button name="btnSubmit">Submit</button>
+    </form>
+
+    <footer>Contact us at : 9999999999</footer>
+</body>
+
+</html>
