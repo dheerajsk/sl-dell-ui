@@ -29,3 +29,32 @@
 /* Important
 Inline
 CSS in external file order (bottom has higher than top) */
+
+.signup-form{
+    border: 1px solid lightgray;
+    padding: 24px 12px;
+    margin: 24px 12px;
+    width: 700px;
+    height: 500px;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: lightcyan; */
+    color: darkslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.form-group{
+    padding: 4px;
+    margin: 6px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-control{
+    width: 200px;
+    height: 28px;
+}

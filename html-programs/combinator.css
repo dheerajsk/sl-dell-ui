@@ -1,0 +1,30 @@
+
+
+.parent{
+    border: 1px solid grey;
+    padding: 12px;
+}
+
+/* Descendant combinator */
+/* applies styles to all p inside element with parent class */
+/* .parent p{
+    background-color: lawngreen;
+}
+
+/* child selector */
+/* Applies styles to all child of the element */
+/* .parent > p{
+    background-color: lightseagreen;
+}  */
+
+/* General Sibling Selector */
+/* Applies styles to all elements which are next siblings */
+.parent ~ p{
+    background-color: maroon;
+}
+
+/* Adjacent Sibling Selector */
+/* Applies styles to next adjacent sibling */
+/* .parent + p{
+    background-color: olivedrab;
+} */

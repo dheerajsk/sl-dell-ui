@@ -11,45 +11,45 @@
     <h1 id="headerSignup">SignUp Form</h1>
     <h1>Please fill below to submit</h1>
     <!-- <header>SignUp Form</header> -->
-    <form>
-        <div class="div-bg div-bg-blue" style="background-color: seagreen;">
+    <form class="signup-form">
+        <div class="form-group">
             <label for="fname">First Name </label>
-            <input type="text" name="fname">
+            <input class="form-control" type="text" name="fname">
         </div>
-        <div class="div-bg">
+        <div class="form-group">
             <label for="lname">Last Name </label>
-            <input type="text" name="lname">
+            <input class="form-control" type="text" name="lname">
         </div>
-        <div>
+        <div class="form-group">
             <label for="email">Email </label>
-            <input type="email" name="email" id="inputEmail">
+            <input class="form-control" type="email" name="email" id="inputEmail">
         </div>
-        <div>
+        <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" name="password">
+            <input class="form-control" type="password" name="password">
         </div>
-        <div>
+        <div class="form-group">
             <label for="taAddress">Office Address</label>
             <textarea name="taAddress" id="taAddress" cols="40" rows="4"></textarea>
         </div>
-        <div>
+        <div class="form-group">
             <label for="taAddress">Home Address</label>
             <address>
                 Jon Doe,
                 Pune, India
             </address>
         </div>
-        <div>
+        <div class="form-group">
             <label for="gender">Gender</label>
             <input type="radio" name="gender"> <label>Male</label>
             <input type="radio" name="gender"> <label>FeMale</label>
         </div>
-        <div>
+        <div class="form-group">
             <label for="DoB">Date of Birth</label>
             <input type="date" name="DoB">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="ddlCountry">Country</label>
             <select name="ddlCountry" id="ddlCountry">
                 <option value="1">India</option>
@@ -58,8 +58,8 @@
                 <option value="3">China</option>
             </select>
         </div>
-        <div>
-            <input type="checkbox" name="cbox"> <label for="cbox">Terms & Conditions</label>
+        <div class="form-group">
+            <input type="checkbox" name="cbox"> <label for="cbox"><a href="fakelink">Terms & Conditions</a></label>
         </div>
         <!-- <input type="submit" value="Submit"> -->
         <button name="btnSubmit">Submit</button>
