@@ -1,0 +1,35 @@
+What? - 
+Why? - 
+How?
+
+What?
+- client side scripting lang and also server side.
+- avoid server side processing - yes
+- faster processing - yes.
+- simple to begin with but difficult to be master at.
+- client side validations - yes
+- decrease server load - yes
+- proven language - yes.
+- Most widely used prog. language. (browser)
+
+
+- General Purpose Prog langague(C, C++, Java, C#, Python)
+
+- JavaScript vs All other prog. language
+1. JS is Single threaded.
+2. Intepreted(doesnt need to be compiled by any JIT)
+3. JS- clientside(browser) and serverside(nodeJS)
+
+Multi-threaded prog language (1 processor)
+blocks threads(a unint of a process)- 
+1. thread(main thread) - writing data into file
+2. create more threads(a new thread for i/o operation)
+3. can be overhead
+
+JavaScript - One main thread. - takes requests ()
+(Thread Pool)
+(EventLoop) - taking and running tasks 
+Write data into file. - task
+
+
+Context Switching - (threads 1...n)
